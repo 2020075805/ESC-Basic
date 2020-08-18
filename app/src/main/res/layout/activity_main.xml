@@ -101,8 +101,8 @@
     <TextView
         android:id="@+id/main_tv_5"
         style="@style/DialButtonStyle"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
         android:text="5"
         app:layout_constraintBottom_toTopOf="@+id/main_tv_8"
         app:layout_constraintEnd_toStartOf="@+id/main_tv_6"
@@ -241,9 +241,9 @@
 
         <ImageButton
             android:id="@+id/main_ibtn_call"
-            android:background="@drawable/circle_backround"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/circle_background"
             android:foreground="?android:attr/selectableItemBackground"
             android:padding="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
