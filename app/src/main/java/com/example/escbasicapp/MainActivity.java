@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
         addContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO:연락처추가
-                Toast.makeText(MainActivity.this, "text", Toast.LENGTH_SHORT).show();
+                Intent addIntent = new Intent(MainActivity.this, AddEditActivity.class);
+                startActivity(addIntent);
             }
         });
 
@@ -98,7 +98,8 @@ public class MainActivity extends AppCompatActivity {
         contact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO:연락처
+                Intent contactIntent = new Intent(MainActivity.this, ContactActivity.class);
+                startActivity(contactIntent);
 
             }
         });
